@@ -75,6 +75,15 @@ button {
     cursor: pointer;
 }
 
+.restart {
+    border-radius: 0.5rem;
+    height: inherit;
+}
+
 .red {
     background: red;
+}
+
+.none {
+    display: none;
 }
