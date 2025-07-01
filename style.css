@@ -40,3 +40,10 @@ footer {
     a { color: #faccaf; }
     a:hover { color: #faeea4; }
 }
+
+.article {
+    border: solid thin #111;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 800px;
+}
