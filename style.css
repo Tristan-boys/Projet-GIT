@@ -18,16 +18,17 @@ header {
 
 ul {
     list-style: none;
-    a {
-        border: solid thin black;
-        border-radius: 0.25rem;
-        text-decoration: none;
-        color: inherit;
-    }
-    a:hover {
-        border-color: #333;
-        background: #333;
-    }
+}
+
+a {
+    border: solid thin black;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    border-color: #333;
+    background: #333;
 }
 
 footer {
@@ -46,4 +47,18 @@ footer {
     border-radius: 1rem;
     overflow: hidden;
     width: 800px;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 0.5rem;
+    background: #202d5f;
+    a {
+        color: #fff;
+        margin: 0.5rem;
+    }
+}
+
+.blank {
+    background: #fff;
 }
