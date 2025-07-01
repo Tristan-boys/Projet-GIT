@@ -62,3 +62,28 @@ footer {
 .blank {
     background: #fff;
 }
+
+button {
+    border: solid thin black;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    background-color: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.restart {
+    border-radius: 0.5rem;
+    height: inherit;
+}
+
+.red {
+    background: red;
+}
+
+.none {
+    display: none !important;
+}
