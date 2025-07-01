@@ -29,3 +29,14 @@ ul {
         background: #333;
     }
 }
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: #c0c0c0;
+    background: #111;
+    a { color: #faccaf; }
+    a:hover { color: #faeea4; }
+}
